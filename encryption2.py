@@ -17,3 +17,31 @@ def ceasar(start_text = input('Type in any word:\n'), shift_amount = int(input('
             break
     print(str)
 ceasar()
+
+# alphabet = 'abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz';
+# def ceasar(start_text = input('Type in any word:\n'), shift_amount = int(input('Type a number from 1 to 26:\n')), cipher_direction  = input('Type encode or decode:\n')):
+#     print(start_text)
+#     print(shift_amount, type(shift_amount))
+#     print(cipher_direction)
+#     str = ''
+#     for i in start_text:
+#         # print(alphabet.index(i))
+#         if cipher_direction == 'decode':
+#             pos = alphabet.index(i)
+#             # print(pos)
+#             new_pos = pos - shift_amount
+#             print(pos, new_pos)
+#             print(alphabet[new_pos])
+#             str += alphabet[new_pos]
+#         elif cipher_direction == 'encode':
+#             pos = alphabet.index(i)
+#             # print(pos)
+#             new_pos = pos + shift_amount
+#             # print(pos, new_pos)
+#             print(alphabet[new_pos])
+#             str += alphabet[new_pos]
+#         else:
+#             print('Invalid Choice.  Only type encode or decode')
+#             break
+#     print(str)
+# ceasar()
