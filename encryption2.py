@@ -72,3 +72,41 @@ ceasar()
 #             break
 #     print(str)
 # ceasar()
+
+# This is the link to this Python Coding Challenge
+# https://www.codewars.com/kata/526d42b6526963598d0004db/train/python
+# alphabet = 'abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz';
+# def ceasar():
+#     should_continue = True
+#     while should_continue:
+#         start_text = input('Type in any word:\n').lower()
+#         shift_amount = int(input('Type a number from 1 to 26:\n'))
+#         cipher_direction = input('Type encode or decode:\n')
+
+#         str = ''
+#         for i in start_text:
+#             print(i)
+#             if cipher_direction == 'decode':
+#                 if i in alphabet:
+#                     pos = alphabet.index(i)
+#                     new_pos = pos - shift_amount
+#                     str += alphabet[new_pos]
+#                 else:
+#                     str += i
+#             elif cipher_direction == 'encode':
+#                 if i in alphabet:
+#                     pos = alphabet.index(i)
+#                     new_pos = pos + shift_amount
+#                     str += alphabet[new_pos]
+#                 else:
+#                     str += i
+#             else:
+#                 print('Invalid Choice.  Only type encode or decode')
+#                 break
+#         print(str)
+#         result = input("Type 'yes' to continue or 'no' to stop ")
+#         if result == 'no':
+#             should_continue = False
+#             print('End')
+# ceasar()
+
